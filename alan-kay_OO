@@ -1,0 +1,119 @@
+[BEGIN]
+- encapsulate not just the data, but the environemnt like biological cell
+- even if significant amount of resource takes to isolate the environment, one
+  can build very complex system out of it
+- object are like biological cell
+- communication by message passing
+[15]
+- basic principle of recursive design
+- why divide a computer to weaker data structures and procedures(that can't have
+  states), why not divide a computer into more computers
+- messages can't be commands
+[20]
+- no assignment from outside, only by message passing
+- capability protection
+[25]
+- '70s - data abstraction (e.g. ada-lang)
+- try and maintain as much informational content as smaller place as possible
+- program should be remarkably small in OO
+- encapsulate various kinds of things, almost states, less often controls, 10% 
+  how you design a system better
+[30]
+- objects as components
+[40]
+- object oriented repository - standard components and building blocks
+- objects as independent machine
+- comprehensive program
+[45]
+- "you couldn't make money in computing in the 60s many of the people who had 
+  ideas about how computing should be done in the 60s had extremely pure 
+  conceptions those conceptions are powerful yet today"
+- first personal computer - LINC 1962 - west clark - virtual memory
+[50]
+- sketchpad - constraint driven OOP
+[1h]
+- for programming in large, objects aren't enough
+- being able to verify different sections different parts different modules
+  independently to be able to unplug and replug and even allow different
+  implementation languages be used
+- some of the messages that the object may be able to receive aren't directly
+  characterized in terms of some outside protocol
+- separate a protocol from some methods
+- all objects might not even in the same machine, and object shouldn't be able
+  to tell what machine they're running on
+[1h:5]
+- only protection doesn't guarantee having an architecture
+- something like traits [??]
+[1h:10]
+- reduce concept space by making it more algebraic and metaphorical
+[1h:17]
+- in an OO system it's possible to legislate to some extent even what the code
+  that the programmer is going to write is going to deliver to you
+- a polyglot example of using protocol
+- binding mechanism as a component
+- blue - cell membrane, red - message protocol, green - inner codes of object..
+  programming in terms with the blue and the red only
+[1h:19]
+- configureation langauge - can be independed of all method, language, something
+  that can be dealt with in operating system level, protocols are choosen ahead
+  of time, standard vocabulary of concepts, protocols are controlled by active
+  code, that give place to write code and insert code that allow bring over
+  routines written in any language, it's a way of setting up environments for
+  debugging modules independently of each other, it's a way of assuring that a
+  module will be able to move from one place to another, it's a way of
+  discovering modules or reusable components... it's a binding mechanism
+- reading configuration language much more important than the ability to write
+  it
+[1h:22]
+- conf-lang - message name, I/O parameters {I/O expectations}, executable
+  predicate(goal), environmental expectation, explanation mechanically of what
+  the method and what the module itself is supposed to do
+[1h:26:40]
+- worry about the integrity of individual object, then next thing is can an
+  object be a component and fit into some larger scale protocol
+- component 
+  - like a paragraph, text or generic gear that can be used in a wide variety 
+    of cases 
+  - sharing not just a class of things but a notion
+- in most OO systems now, the modularity by them is regard to the state, not 
+  control.. only the state is encapsulated not control. so when a message is
+  recieved what happens then is ambiguous 
+  - controls should be modular
+- objects sitting in a sea of messages 
+  - objects say their requirement
+  - objects don't need to send any message only recieve
+[1h:40]
+- removes the necessity for control flow
+- objects can move one place to another
+[1h:45]
+- **adults are used to suffering**
+- spreadsheet example - continuously evaluating expression
+[1h:50]
+- functional programming
+[1h:55]
+- simula - time and ticks
+- when the object is computing we can't view and when the object is viewing we
+  can't compute
+[2h]
+- what if the viewie takes too long
+- slippage model
+[2h:5]
+- [??]
+- smalltalk has no concept of loading code, everything is dynamic
+- OO system hard to crash
+[2h:10]
+- superclass as binding mechanism
+- smalltalk over network - phantom object
+[2h:15]
+- interesting things are made out of patterns
+[2h:20]
+- objects provide both an excuse for designing and a framework for holding the
+  design
+[2h:25]
+- relational database - views
+[2h:30]
+- everything are object in smalltalk even stack-frame
+- smalltalk V
+[2h:35]
+- sub class class class ...
+[END]
